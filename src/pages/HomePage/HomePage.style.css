@@ -1,0 +1,79 @@
+header.title {
+  font-weight: bold;
+  font-size: 2em;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 640px;
+}
+
+a {
+  display: block;
+  margin-bottom: 20px;
+  color: #0070f3;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0055d4;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+#create-employee {
+  margin-bottom: 20px;
+}
+
+#create-employee label {
+  display: block;
+  font-weight: bold;
+  font-size: 0.875em;
+  margin-bottom: 5px;
+}
+
+#create-employee input,
+#create-employee select, .select {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.select {
+  padding: 0;
+}
+
+.address {
+  margin-bottom: 20px;
+}
+
+.address legend {
+  font-weight: bold;
+}
+
+button {
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #0070f3;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #0055d4;
+}
+
+@media (min-width: 576px) {
+  .container {
+    padding: 40px;
+  }
+}
