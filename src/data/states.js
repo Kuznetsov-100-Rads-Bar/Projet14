@@ -1,3 +1,5 @@
+/* stateList est une constante qui contient une liste d'objets, chacun représentant un état des États-Unis avec ses propriétés label (le nom de l'état) et value (l'abréviation de l'état). Cette liste peut être utilisée, par exemple, pour alimenter une liste déroulante de sélection d'états dans un formulaire d'inscription. */
+
 const stateList = [
     {
         "label": "Alabama",

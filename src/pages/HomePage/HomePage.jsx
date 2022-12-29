@@ -9,6 +9,7 @@ import "react-datepicker/dist/react-datepicker.css";
 import { registerLocale } from "react-datepicker";
 import fr from 'date-fns/locale/fr';
 import { defineEmployeesAction } from '../../store/employees/employees.actions';
+import { Modal } from 'behar_modal-component';
 registerLocale('fr', fr)
 
 export const HomePage = ({ defineEmployee }) => {
@@ -24,10 +25,17 @@ export const HomePage = ({ defineEmployee }) => {
     const [zipCode, setZipCode] = useState("");
     const [department, setDepartment] = useState("");
 
+    const [showModal, setShowModal] = useState(false);
+
     useEffect(() => {
         setStates(stateList)
     }, [])
 
+/**
+ * If the form is filled out, then create a new employee, reset the form, and show the modal.
+ * Si le formulaire est rempli, créez un nouvel employé, réinitialisez le formulaire et affichez la modale.
+ * @returns The newEmployee object is being returned.
+ */
     const handleSubmit = async (event) => {
         event.preventDefault();
 
@@ -59,14 +67,23 @@ export const HomePage = ({ defineEmployee }) => {
             });
 
             if (newEmployee) {
-                // setShowModal(true);
+                setShowModal(true);
+                await resetForm();
                 return newEmployee = undefined;
             }
         }
     }
 
+    /* C'est une fonction qui s'exécute lorsqu'elle est appelée. Elle a pour but de réinitialiser un formulaire en mettant toutes les valeurs des champs de saisie à leur valeur par défaut. 
+    Ces fonctions sont appelées dans l'ordre dans lequel elles sont énumérées et mettent à jour les variables associées en conséquence. La fonction "resetForm" elle-même ne renvoie aucune valeur.
+    */
+    const resetForm = () => {
+        return (setBirthDate(new Date(Date.now()).setFullYear(new Date(Date.now()).getFullYear() - 18)), setStartDate(new Date(Date.now()).setFullYear(new Date(Date.now()).getFullYear() - 18)), setFirstName(""), setLastName(""), setStreet(""), setCity(""), setState(""), setZipCode(""), setDepartment(""));
+    }
+
     return (
         <>
+            <Modal onClose={() => setShowModal(!showModal)} visible={showModal} title={"Succès"} content={"Le nouvel employé a été ajouté à la liste."} />
             <header className="title">
                 <h1>HRnet</h1>
             </header>
@@ -148,7 +165,6 @@ export const HomePage = ({ defineEmployee }) => {
                 </form>
 
             </div>
-            <div id="confirmation" className="modal">Employee Created!</div>
         </>
     )
 }
