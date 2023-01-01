@@ -19,6 +19,7 @@ const FilterComponent = ({ filterText, onFilter, onClear }) => {
     )
 }
 
+/* This is the columns for the table. */
 export const DataPage = ({ employees }) => {
 
     const columns = [
@@ -97,6 +98,7 @@ export const DataPage = ({ employees }) => {
         );
     }, [filterText, resetPaginationToggle]);
 
+/* Returning the HTML for the page. */
     return (
         <>
             <header className="title">
@@ -123,6 +125,11 @@ export const DataPage = ({ employees }) => {
     )
 }
 
+/**
+ * This function takes the state of the Redux store as an argument and returns an object that maps the
+ * state to the props of the component.
+ * @returns The employees array from the store.
+ */
 const mapStateToProps = (state) => {
     return {
         employees: state.employees

@@ -36,6 +36,7 @@ export const HomePage = ({ defineEmployee }) => {
  * Si le formulaire est rempli, créez un nouvel employé, réinitialisez le formulaire et affichez la modale.
  * @returns The newEmployee object is being returned.
  */
+        //  // Empêche le comportement par défaut du formulaire lorsque l'événement "submit" est déclenché
     const handleSubmit = async (event) => {
         event.preventDefault();
 
@@ -52,8 +53,9 @@ export const HomePage = ({ defineEmployee }) => {
         // }
 
         // console.log(employeeData);
-
+        // // Vérifie que tous les champs du formulaire ont été remplis
         if (firstName && lastName && street && city && state && zipCode && department && startDate && birthDate) {
+            // // Appelle une fonction asynchrone qui crée un nouvel employé avec les données du formulaire
             let newEmployee = await defineEmployee({
                 firstName: firstName,
                 lastName: lastName,
@@ -65,11 +67,14 @@ export const HomePage = ({ defineEmployee }) => {
                 zipCode: zipCode,
                 department: department
             });
-
+            // // Si la fonction renvoie un employé nouvellement créé
             if (newEmployee) {
+                // // Affiche un modal de succès
                 setShowModal(true);
+                // // Réinitialise les champs du formulaire
                 await resetForm();
                 return newEmployee = undefined;
+                // // Mets la valeur "undefined" dans la variable "newEmployee" avant de la retourner
             }
         }
     }
