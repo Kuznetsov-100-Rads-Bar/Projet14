@@ -169,6 +169,14 @@ export const HomePage = ({ defineEmployee }) => {
     )
 }
 
+/**
+ * This function takes in a dispatch function and returns an object with a function that takes in an
+ * employee and dispatches the defineEmployeesAction function with the employee as an argument.
+ */
+
+/** Cette fonction prend en paramètre une fonction de dispatch et renvoie un objet avec une fonction qui prend en paramètre un employé et dispatch la fonction defineEmployeesAction avec l'employé en tant qu'argument. */
+
+/** En fiate, cette fonction crée un objet qui a une fonction appelée defineEmployee qui prend en paramètre un employé et utilise la fonction de dispatch pour envoyer l'action defineEmployeesAction au store Redux avec l'employé en tant qu'argument. Cela permet au composant de dispatcher une action qui modifie l'état du store Redux en ajoutant un employé. */
 const mapStateToProps = (state) => ({})
 
 const mapDispatchToProps = (dispatch) => {
