@@ -94,7 +94,7 @@ export const HomePage = ({ defineEmployee }) => {
             </header>
             <div className="container">
                 <h2>Create Employee</h2>
-                <Link to={"/employees"}>View Current Employees</Link>
+                <Link className='link' to={"/employees"}>View Current Employees</Link>
                 <form onSubmit={(event) => handleSubmit(event)} id={'create-employee'}>
                     <label htmlFor="first-name">First Name</label>
                     <input value={firstName} onChange={(event) => setFirstName(event.currentTarget.value)} type="text" id="first-name" />

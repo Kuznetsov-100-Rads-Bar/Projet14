@@ -20,6 +20,7 @@ a {
 
 a:hover {
   color: #0055d4;
+  text-decoration: underline;
 }
 
 h2 {
@@ -36,10 +37,12 @@ h2 {
   font-weight: bold;
   font-size: 0.875em;
   margin-bottom: 5px;
+  font-weight: 600 !important;
 }
 
 #create-employee input,
-#create-employee select, .select {
+#create-employee select,
+.select {
   display: block;
   width: 100%;
   padding: 5px;
