@@ -29,7 +29,7 @@ export const HomePage = ({ defineEmployee }) => {
   const [zipCode, setZipCode] = useState("");
   const [department, setDepartment] = useState("");
 
-  const [showModal, setShowModal] = useState(true);
+  const [showModal, setShowModal] = useState(false);
 
   useEffect(() => {
     setStates(stateList);
