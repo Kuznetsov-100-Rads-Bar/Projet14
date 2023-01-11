@@ -29,7 +29,7 @@ export const HomePage = ({ defineEmployee }) => {
   const [zipCode, setZipCode] = useState("");
   const [department, setDepartment] = useState("");
 
-  const [showModal, setShowModal] = useState(false);
+  const [showModal, setShowModal] = useState(true);
 
   useEffect(() => {
     setStates(stateList);
@@ -125,6 +125,8 @@ export const HomePage = ({ defineEmployee }) => {
         visible={showModal}
         title={"Succès"}
         content={"Le nouvel employé a été ajouté à la liste."}
+        overlay={true}
+        closeButton={false}
       />
       <header className="title">
         <h1>HRnet</h1>
@@ -158,6 +160,7 @@ export const HomePage = ({ defineEmployee }) => {
             className={"select"}
             locale={"fr"}
             dateFormat={"dd/MM/yyyy"}
+            showYearDropdown={true}
           />
 
           <label htmlFor="start-date">Start Date</label>
@@ -167,6 +170,7 @@ export const HomePage = ({ defineEmployee }) => {
             className={"select"}
             locale={"fr"}
             dateFormat={"dd/MM/yyyy"}
+            showYearDropdown={true}
           />
 
           <fieldset className="address">
