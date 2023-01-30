@@ -10,12 +10,12 @@ HRNet, is based on JQuery. It's about setting up a transition to a React applica
 
 ## Goals :
 
-1- Update the different pages:
+1. Update the different pages:
   Make a new version of the "Create Employee" and "Employee List" pages with React.
-2- Use a tool (Redux) Add state management system (current version uses local storage).
-3- Modernize the application (the design) Ensure that everything is consistent in terms of style.
-4- Convert one of the four current jQuery plugins to React. Replace the 3 remaining jQuery plugins with React components that you will code yourself,                       or that you can import from existing libraries if you are short of time.
-5- And of course if we have time, we can test the React code with a suite of unit tests. Otherwise, only manual testing is necessary.
+2. Use a tool (Redux) Add state management system (current version uses local storage).
+3. Modernize the application (the design) Ensure that everything is consistent in terms of style.
+4. Convert one of the four current jQuery plugins to React. Replace the 3 remaining jQuery plugins with React components that you will code yourself,                       or that you can import from existing libraries if you are short of time.
+5. And of course if we have time, we can test the React code with a suite of unit tests. Otherwise, only manual testing is necessary.
 
 ## Getting Started Dependencies : 
 This project was bootstrapped with Create React App and use
