@@ -8,7 +8,7 @@ I present to you my latest project 14 of the course "Front-End Developer: Applic
 The goal is to create an internal application that manages employee records. This company uses an internal web application, called HRnet. 
 HRNet, is based on JQuery. It's about setting up a transition to a React application as well as an update of existing JQuery plugins to a React library, of course.
 
-## goals :
+## Goals :
 
 1- Update the different pages:
   Make a new version of the "Create Employee" and "Employee List" pages with React.
@@ -28,7 +28,7 @@ This project was bootstrapped with Create React App and use
 This module has been created for project 14 Pass a jQuery library to React : This is a simple modal component functioning at external module
 [Modal component repo](https://github.com/Kuznetsov-100-Rads-Bar/modal-component)
 
-## npmjs 
+## NPMJS online registry for JavaScript packages. 
 [behar_modal-component](https://www.npmjs.com/package/behar_modal-component?activeTab=readme)
 
 ## Available Scripts
@@ -72,7 +72,7 @@ Launch Local:    http://localhost:3000
 You can finally test performance with LightHouse either with your Chrome or Mozilla browsers in your development console, and click on analyze page load, It will generate a lighthouse report. (You can compare with jQuery vs React version)
 
 
-### optional : 
+### Optional : 
 Cypress is an automated testing tool for web applications. It allows testing the user interface and interactions with the application in a fast and reliable way.
 
 ### Installing : 
