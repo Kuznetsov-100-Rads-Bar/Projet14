@@ -92,8 +92,8 @@ And refer to the Cypress documentation in the link below
 
 ### `Links :`
 To learn :
-React, check out the [React documentation](https://reactjs.org/)
-Redux, check out the [Redux documentation](https://redux.js.org/)
-Redux Persist, check out the [blog](https://blog.logrocket.com/persist-state-redux-persist-redux-toolkit-react/)
-Cypress create tests for your modern web applications, check out the [Cypress documentation](https://www.cypress.io/) and installing [https://docs.cypress.io/guides/getting-started/installing-cypress](https://docs.cypress.io/guides/getting-started/installing-cypress)
+- React, check out the [React documentation](https://reactjs.org/)
+- Redux, check out the [Redux documentation](https://redux.js.org/)
+- Redux Persist, check out the [blog](https://blog.logrocket.com/persist-state-redux-persist-redux-toolkit-react/)
+- Cypress create tests for your modern web applications, check out the [Cypress documentation](https://www.cypress.io/) and installing [https://docs.cypress.io/guides/getting-started/installing-cypress](https://docs.cypress.io/guides/getting-started/installing-cypress)
 
