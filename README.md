@@ -1,70 +1,99 @@
-# Getting Started with Create React App
+# Project 14 - Pass a jQuery library to React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Author : 
+Behar Abdelkader
+
+## Intro :
+I present to you my latest project 14 of the course "Front-End Developer: Application Developer - JavaScript React" at OpenClassroom. 
+The goal is to create an internal application that manages employee records. This company uses an internal web application, called HRnet. 
+HRNet, is based on JQuery. It's about setting up a transition to a React application as well as an update of existing JQuery plugins to a React library, of course.
+
+## goals :
+
+1- Update the different pages:
+  Make a new version of the "Create Employee" and "Employee List" pages with React.
+2- Use a tool (Redux) Add state management system (current version uses local storage).
+3- Modernize the application (the design) Ensure that everything is consistent in terms of style.
+4- Convert one of the four current jQuery plugins to React. Replace the 3 remaining jQuery plugins with React components that you will code yourself,                       or that you can import from existing libraries if you are short of time.
+5- And of course if we have time, we can test the React code with a suite of unit tests. Otherwise, only manual testing is necessary.
+
+## Getting Started Dependencies : 
+This project was bootstrapped with Create React App and use
+- React (18.2.0)
+- Redux (4.2.0)
+- Redux-persist (6.0.0)
+- React router (6.5.0)
+
+## Modal component for ReactJ for Project 14 : 
+This module has been created for project 14 Pass a jQuery library to React : This is a simple modal component functioning at external module
+[Modal component repo](https://github.com/Kuznetsov-100-Rads-Bar/modal-component)
+
+## npmjs 
+[behar_modal-component](https://www.npmjs.com/package/behar_modal-component?activeTab=readme)
 
 ## Available Scripts
+### all HRNet application jQuery must be converted to React : 
+Test the Front-End project : 
+1.Fork this repo : : [https://github.com/OpenClassrooms-Student-Center/P12_Front-end](https://github.com/OpenClassrooms-Student-Center/P12_Front-end)
+2.Clone the repo into your computer
+3.Open a terminal windows 
+4.Run the following commands: `click to run live server`
+5.Server is started at port : 5500  [http://127.0.0.1:5500/](http://127.0.0.1:5500/) in browsers 
+  
 
-In the project directory, you can run:
+## Installing and launching Front-End
 
-### `npm start`
+- Clone the repository of HRnet Faites passer une librairie jQuery vers React:
+> git clone https://github.com/Kuznetsov-100-Rads-Bar/Projet14
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Inside this front-end repository, install dependencies:
+> npm install
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Launch : 
+> npm start
 
-### `npm test`
+- Launch front-end on port 3000: [http://localhost:3000](http://localhost:3000)
+- Front-end is now rendered at URL http://localhost:3000.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Lighthouse performance by comparing old and new app
+Builds the app for production to the `build`: 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+and the command : 
+`npm run build`  Creating an optimized production build and you create a Build folder in your project
 
-### `npm run eject`
+On the project open the terminal and type the first command : 
+`npx serve -s build/`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+ Optimizes the build for the best performance.
+Launch Local:    http://localhost:3000
+You can finally test performance with LightHouse either with your Chrome or Mozilla browsers in your development console, and click on analyze page load, It will generate a lighthouse report. (You can compare with jQuery vs React version)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### optional : 
+Cypress is an automated testing tool for web applications. It allows testing the user interface and interactions with the application in a fast and reliable way.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Installing : 
+Cypress via npm
+`cd/your/project/path`
 
-## Learn More
+`npm install cypress --save-dev`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+In your project go to the package.json and on the "scripts" part: you will have the line:
+"cypress:open": "cypress open" which will allow us to launch it in the other second terminal with the command: `npm run cypress:open`
+Don't forget, You will already have another terminal open which is your project (`npm start`)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+A window will open with the message: Welcome to Cypress!
+Review the differences between each testing type : E2E Testing or Components Testing 
+And refer to the Cypress documentation in the link below
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### `Links :`
+To learn :
+React, check out the [React documentation](https://reactjs.org/)
+Redux, check out the [Redux documentation](https://redux.js.org/)
+Redux Persist, check out the [blog](https://blog.logrocket.com/persist-state-redux-persist-redux-toolkit-react/)
+Cypress create tests for your modern web applications, check out the [Cypress documentation](https://www.cypress.io/) and installing [https://docs.cypress.io/guides/getting-started/installing-cypress](https://docs.cypress.io/guides/getting-started/installing-cypress)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
