@@ -2,9 +2,10 @@
 
 ## Author
 
-**Behar Abdel kader** : student from openclassrooms
+_Behar Abdel kader : student from openclassrooms
 
-**## Intro**
+## Intro
+
 I present to you my latest project 14 of the course "Front-End Developer: Application Developer - JavaScript React" at OpenClassrooms.
 The goal is to create an internal application that manages employee records. This company uses an internal web application, called HRnet.
 HRNet, is based on JQuery. It's about setting up a transition to a React application as well as an update of existing JQuery plugins to a React library, of course.
