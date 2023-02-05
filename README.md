@@ -96,7 +96,10 @@ Cypress via npm
 `npm install cypress --save-dev`
 
 In your project go to the package.json and on the "scripts" part: you will have the line:
-"cypress:open": "cypress open" which will allow us to launch it in the other second terminal with the command: `npm run cypress:open`
+`"cypress:open": "cypress open"`
+
+which will allow us to launch it in the other second terminal with the command: `npm run cypress:open`
+
 Don't forget, You will already have another terminal open which is your project (`npm start`)
 
 A window will open with the message: Welcome to Cypress!
