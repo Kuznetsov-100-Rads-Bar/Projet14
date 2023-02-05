@@ -2,7 +2,7 @@
 
 ## Author
 
-**Behar Abdelkader** : student from openclassrooms
+**Behar Abdel kader** : student from openclassrooms
 
 **## Intro**
 I present to you my latest project 14 of the course "Front-End Developer: Application Developer - JavaScript React" at OpenClassrooms.
