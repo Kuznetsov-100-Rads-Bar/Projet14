@@ -29,7 +29,7 @@ This project was bootstrapped with Create React App and use
 
 ## Node Version
 
-V 18.9.0
+- V 18.9.0
 
 ## Modal component for ReactJ for Project 14
 
