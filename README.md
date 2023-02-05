@@ -45,11 +45,12 @@ This module has been created for project 14 Pass a jQuery library to React : Thi
 ### all HRNet application jQuery must be converted to React
 
 Test the Front-End project :
-1.Fork this repo : : [https://github.com/OpenClassrooms-Student-Center/P12_Front-end](https://github.com/OpenClassrooms-Student-Center/P12_Front-end)
-2.Clone the repo into your computer
-3.Open a terminal windows
-4.Run the following commands: `click to run live server`
-5.Server is started at port : 5500  [http://127.0.0.1:5500/](http://127.0.0.1:5500/) in browsers
+
+1. Fork this repo : : [https://github.com/OpenClassrooms-Student-Center/P12_Front-end](https://github.com/OpenClassrooms-Student-Center/P12_Front-end)
+2. Clone the repo into your computer
+3. Open a terminal windows
+4. Run the following commands: `click to run live server`
+5. Server is started at port : 5500  [http://127.0.0.1:5500/](http://127.0.0.1:5500/) in browsers
   
 ## Installing and launching Front-End
 
