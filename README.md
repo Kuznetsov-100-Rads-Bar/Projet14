@@ -79,8 +79,9 @@ and the command :
 On the project open the terminal and type the first command :
 `npx serve -s build/`
 
- Optimizes the build for the best performance.
+Optimizes the build for the best performance.
 Launch Local:    <http://localhost:3000>
+
 You can finally test performance with LightHouse either with your Chrome or Mozilla browsers in your development console, and click on analyze page load, It will generate a lighthouse report. (You can compare with jQuery vs React version)
 
 ### Optional
