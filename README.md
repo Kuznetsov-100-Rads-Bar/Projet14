@@ -2,7 +2,7 @@
 
 ## Author
 
-*Behar Abdel kader : student from openclassrooms*
+`Behar Abdel kader : student from openclassrooms`
 
 ## Intro
 
