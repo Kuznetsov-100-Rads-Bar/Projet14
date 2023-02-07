@@ -33,10 +33,6 @@ This project was bootstrapped with Create React App and use
 
 - V 18.9.0
 
-## Getting Started
-
-Start the project : `npm install`
-
 ## Modal component for ReactJ for Project 14
 
 This module has been created for project 14 Pass a jQuery library to React : This is a simple modal component functioning at external module
@@ -58,7 +54,9 @@ Test the Front-End project :
 4. Run the following commands: `click to run live server`
 5. Server is started at port : 5500  [http://127.0.0.1:5500/](http://127.0.0.1:5500/) in browsers
   
-## Installing and launching Front-End
+## Getting Started
+
+- Installing and launching Front-End :
 
 - Clone the repository of HRnet Faites passer une librairie jQuery vers React:
 
