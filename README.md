@@ -94,7 +94,7 @@ You can finally test performance with LightHouse either with your Chrome or Mozi
 
 **Cypress** is an automated testing tool for web applications. It allows testing the user interface and interactions with the application in a fast and reliable way.
 
-### Executed
+#### Executed
 
 `npm install cypress --save-dev`
 
