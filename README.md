@@ -27,10 +27,15 @@ This project was bootstrapped with Create React App and use
 - Redux (4.2.0)
 - Redux-persist (6.0.0)
 - React router (6.5.0)
+- React-datepicker (4.8.0)
 
 ## Node Version
 
 - V 18.9.0
+
+## Getting Started
+
+Start the project : `npm install`
 
 ## Modal component for ReactJ for Project 14
 
@@ -89,19 +94,11 @@ You can finally test performance with LightHouse either with your Chrome or Mozi
 
 **Cypress** is an automated testing tool for web applications. It allows testing the user interface and interactions with the application in a fast and reliable way.
 
-### Installing
-
-Cypress via npm
-`cd/your/project/path`
+### Executed
 
 `npm install cypress --save-dev`
 
-In your project go to the package.json and on the "scripts" part: you will have the line:
-`"cypress:open": "cypress open"`
-
 which will allow us to launch it in the other second terminal with the command: `npm run cypress:open`
-
-Don't forget, You will already have another terminal open which is your project (`npm start`)
 
 A window will open with the message: Welcome to Cypress!
 Review the differences between each testing type : E2E Testing or Components Testing
