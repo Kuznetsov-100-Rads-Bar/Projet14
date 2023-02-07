@@ -99,8 +99,11 @@ You can finally test performance with LightHouse either with your Chrome or Mozi
 which will allow us to launch it in the other second terminal with the command: `npm run cypress:open`
 
 A window will open with the message: Welcome to Cypress!
+
 Review the differences between each testing type : E2E Testing or Components Testing
-*Then select 'End to End' test*
+
+Then select : *'End to End' test*
+
 And refer to the Cypress documentation in the link below
 
 ### `Links :`
