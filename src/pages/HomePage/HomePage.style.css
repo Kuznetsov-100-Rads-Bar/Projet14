@@ -16,11 +16,18 @@ a {
   margin-bottom: 20px;
   color: #0070f3;
   text-decoration: none;
+  font-weight:bolder;
+  font-size: 1.4em;
 }
 
 a:hover {
   color: #0055d4;
   text-decoration: underline;
+}
+
+a:focus{
+  box-shadow: 0 0 0 2px #0070f3;
+  max-width: 260px;
 }
 
 h2 {

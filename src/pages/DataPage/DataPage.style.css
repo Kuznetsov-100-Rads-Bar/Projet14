@@ -6,3 +6,22 @@
     margin-right: auto;
     max-width: 560px !important;
 }
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: green;
+}
+
+a:active {
+  color: red;
+}
+
+a:focus {
+  background-color: yellow;
+}
